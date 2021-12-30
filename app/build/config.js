@@ -1,6 +1,7 @@
-const useCDN = true
+const packageConfig = require('../package.json')
+const isDevMode = process.env.NODE_ENV === 'development'
 
-const externals = useCDN ? {
+const externals = packageConfig.useCDN ? {
   'vue': 'Vue',
   'video.js': 'videojs',
   'axios': 'axios',
@@ -14,6 +15,8 @@ const externals = useCDN ? {
 } : {}
 
 module.exports = {
+  packageConfig,
   externals,
-  enableBundleAnalyzer: process.env.NODE_ENV === 'development'
+  isDevMode,
+  enableBundleAnalyzer: isDevMode
 }
