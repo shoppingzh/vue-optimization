@@ -52,5 +52,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "useCDN": true
+  "useCDN": false
 }

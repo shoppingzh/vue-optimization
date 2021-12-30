@@ -10,7 +10,7 @@ module.exports = {
       test: /\.js$/,
       algorithm: 'gzip',
       threshold: 0,
-      deleteOriginalAssets: true
+      deleteOriginalAssets: false
     })])
   ]
 }
