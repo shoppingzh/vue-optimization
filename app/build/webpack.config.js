@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     ...(enableBundleAnalyzer ? [new BundleAnalyzerPlugin()] : []),
     ...(isDevMode ? [] : [new CompressionPlugin({
-      test: /\.js$/,
+      test: /\.(js|css|jpg|png|gif)$/,
       algorithm: 'gzip',
       threshold: 0,
       deleteOriginalAssets: true
