@@ -10,12 +10,16 @@
   "dependencies": {
     "@vue/composition-api": "^1.4.0",
     "axios": "^0.24.0",
+    "clipboard": "^2.0.8",
     "core-js": "^3.6.5",
     "dayjs": "^1.10.7",
     "echarts": "^5.2.2",
+    "intro.js": "^4.3.0",
     "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "moveable": "^0.27.2",
     "pdfjs-dist": "2.6.347",
+    "swiper": "^7.4.1",
     "vconsole": "^3.9.5",
     "video.js": "^7.17.0",
     "vue": "^2.6.11",
@@ -52,5 +56,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "useCDN": false
+  "useCDN": true
 }

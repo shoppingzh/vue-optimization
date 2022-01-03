@@ -11,7 +11,11 @@ const externals = packageConfig.useCDN ? {
   'dayjs': 'dayjs',
   'echarts': 'echarts',
   'moveable': 'Moveable',
-  'pdfjs-dist': 'pdfjsLib'
+  'pdfjs-dist': 'pdfjsLib',
+  'clipboard': 'ClipboardJS',
+  'intro.js': 'introJs',
+  'swiper': 'Swiper',
+  'moment': 'moment'
 } : {}
 
 module.exports = {
